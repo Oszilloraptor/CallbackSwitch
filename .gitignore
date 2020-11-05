@@ -1,0 +1,7 @@
+tmp/
+vendor/
+.idea/
+composer.lock
+phpcs.xml
+phpstan.neon
+phpunit.xml

@@ -1,0 +1,56 @@
+{
+  "name": "riktad/callback-switch",
+  "description": "a short description in a single line",
+  "version": "0.0.0",
+  "type": "library",
+  "keywords": [],
+  "homepage": "https://packagist.org/packages/riktad/callback-switch",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "D. S. Richard Richter",
+      "email": "richter@vivaldi.net",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/RiktaD/CallbackSwitch/issues",
+    "source": "https://github.com/RiktaD/CallbackSwitch"
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "mockery/mockery": "^1.4",
+    "phpunit/phpunit": "^9.4",
+    "phpstan/phpstan": "^0.12",
+    "phpstan/phpstan-phpunit": "^0.12",
+    "squizlabs/php_codesniffer": "^3.5",
+    "phpstan/phpstan-mockery": "^0.12.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "RiktaD\\CallbackSwitch\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RiktaD\\CallbackSwitch\\Test\\Dummies\\": "tests/dummies",
+      "RiktaD\\CallbackSwitch\\Test\\Unit\\": "tests/unit",
+      "RiktaD\\CallbackSwitch\\Test\\Functional\\": "tests/functional"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "scripts": {
+    "check": ["@test", "@lint", "@stan"],
+    "test": "phpunit",
+    "test:unit": "phpunit --testsuite unit",
+    "test:functional": "phpunit --testsuite functional",
+    "stan": "phpstan analyze",
+    "lint": "phpcs",
+    "lint:fix": "phpcbf"
+  }
+}
