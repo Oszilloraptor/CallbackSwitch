@@ -1,14 +1,14 @@
 <?php
 
-namespace RiktaD\CallbackSwitch\Test\Functional\Switches;
+namespace Rikta\CallbackSwitch\Test\Functional\Switches;
 
 use DomainException;
 use Generator;
 use LogicException;
-use RiktaD\CallbackSwitch\Exceptions\CaseNotFoundException;
-use RiktaD\CallbackSwitch\Switches\SwitchByIsA;
+use Rikta\CallbackSwitch\Exceptions\CaseNotFoundException;
+use Rikta\CallbackSwitch\Switches\SwitchByIsA;
 use PHPUnit\Framework\TestCase;
-use RiktaD\CallbackSwitch\Switches\SwitchByValue;
+use Rikta\CallbackSwitch\Switches\SwitchByValue;
 use RuntimeException;
 
 class SwitchByIsATest extends TestCase

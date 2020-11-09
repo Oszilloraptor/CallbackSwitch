@@ -1,9 +1,9 @@
 <?php
 
-namespace RiktaD\CallbackSwitch\Abstractions;
+namespace Rikta\CallbackSwitch\Abstractions;
 
-use RiktaD\CallbackSwitch\Exceptions\CaseNotFoundException;
-use RiktaD\CallbackSwitch\Interfaces\CallbackSwitch;
+use Rikta\CallbackSwitch\Exceptions\CaseNotFoundException;
+use Rikta\CallbackSwitch\Interfaces\CallbackSwitch;
 
 abstract class AbstractCallbackSwitch implements CallbackSwitch
 {

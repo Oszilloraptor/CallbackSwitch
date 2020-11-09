@@ -1,9 +1,9 @@
 <?php
 
-namespace RiktaD\CallbackSwitch\Test\Functional\Switches;
+namespace Rikta\CallbackSwitch\Test\Functional\Switches;
 
 use Generator;
-use RiktaD\CallbackSwitch\Switches\SwitchByValue;
+use Rikta\CallbackSwitch\Switches\SwitchByValue;
 use PHPUnit\Framework\TestCase;
 
 class SwitchByValueTest extends TestCase

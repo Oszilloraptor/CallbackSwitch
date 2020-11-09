@@ -31,7 +31,7 @@ and implementing the only abstract method to choose which callback to use
 
 ## Installation
 
-Require this package with `composer require riktad/callback-switch`
+Require this package with `composer require rikta/callback-switch`
 
 ## Usage
 
@@ -144,8 +144,8 @@ a look at [CONTRIBUTING.md](.github/CONTRIBUTING.md) first.
 
 [MIT](./LICENSE)
 
-[b-packagist-version]:[https://img.shields.io/packagist/v/riktad/callback-switch]
-[b-php-version]:[https://img.shields.io/packagist/php-v/riktad/callback-switch]
+[b-packagist-version]:[https://img.shields.io/packagist/v/rikta/callback-switch]
+[b-php-version]:[https://img.shields.io/packagist/php-v/rikta/callback-switch]
 [b-license]:[https://img.shields.io/github/license/RiktaD/CallbackSwitch]
 [b-last-release-date]:[https://img.shields.io/github/release-date/RiktaD/CallbackSwitch]
 [b-last-commit-date]:[https://img.shields.io/github/last-commit/RiktaD/CallbackSwitch]

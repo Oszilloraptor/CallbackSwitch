@@ -5,12 +5,12 @@
  * @noinspection PhpUnhandledExceptionInspection
  */
 
-namespace RiktaD\CallbackSwitch\Test\Functional\Abstractions;
+namespace Rikta\CallbackSwitch\Test\Functional\Abstractions;
 
 use Generator;
 use PHPUnit\Framework\TestCase;
-use RiktaD\CallbackSwitch\Exceptions\CaseNotFoundException;
-use RiktaD\CallbackSwitch\Test\Dummies\DummySwitch;
+use Rikta\CallbackSwitch\Exceptions\CaseNotFoundException;
+use Rikta\CallbackSwitch\Test\Dummies\DummySwitch;
 
 class AbstractCallbackSwitchTest extends TestCase
 {

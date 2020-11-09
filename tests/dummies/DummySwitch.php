@@ -1,8 +1,8 @@
 <?php
 
-namespace RiktaD\CallbackSwitch\Test\Dummies;
+namespace Rikta\CallbackSwitch\Test\Dummies;
 
-use RiktaD\CallbackSwitch\Abstractions\AbstractCallbackSwitch;
+use Rikta\CallbackSwitch\Abstractions\AbstractCallbackSwitch;
 
 class DummySwitch extends AbstractCallbackSwitch
 {

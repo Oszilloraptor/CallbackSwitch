@@ -1,10 +1,10 @@
 <?php
 
-namespace RiktaD\CallbackSwitch\Test\Functional\Exceptions;
+namespace Rikta\CallbackSwitch\Test\Functional\Exceptions;
 
 use Exception;
 use PHPUnit\Framework\TestCase;
-use RiktaD\CallbackSwitch\Exceptions\CaseNotFoundException;
+use Rikta\CallbackSwitch\Exceptions\CaseNotFoundException;
 
 class CaseNotFoundExceptionTest extends TestCase
 {

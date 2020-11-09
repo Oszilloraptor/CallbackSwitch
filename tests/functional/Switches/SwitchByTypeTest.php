@@ -1,10 +1,10 @@
 <?php
 
-namespace RiktaD\CallbackSwitch\Test\Functional\Switches;
+namespace Rikta\CallbackSwitch\Test\Functional\Switches;
 
 use Exception;
 use Generator;
-use RiktaD\CallbackSwitch\Switches\SwitchByType;
+use Rikta\CallbackSwitch\Switches\SwitchByType;
 use PHPUnit\Framework\TestCase;
 
 class SwitchByTypeTest extends TestCase

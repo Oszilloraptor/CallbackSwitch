@@ -1,6 +1,6 @@
 <?php
 
-namespace RiktaD\CallbackSwitch\Exceptions;
+namespace Rikta\CallbackSwitch\Exceptions;
 
 use Exception;
 use Throwable;

@@ -1,8 +1,8 @@
 <?php
 
-namespace RiktaD\CallbackSwitch\Switches;
+namespace Rikta\CallbackSwitch\Switches;
 
-use RiktaD\CallbackSwitch\Abstractions\AbstractCallbackSwitch;
+use Rikta\CallbackSwitch\Abstractions\AbstractCallbackSwitch;
 
 class SwitchByType extends AbstractCallbackSwitch
 {

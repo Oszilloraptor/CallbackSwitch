@@ -1,10 +1,10 @@
 {
-  "name": "riktad/callback-switch",
+  "name": "rikta/callback-switch",
   "description": "a short description in a single line",
   "version": "0.0.0",
   "type": "library",
   "keywords": [],
-  "homepage": "https://packagist.org/packages/riktad/callback-switch",
+  "homepage": "https://packagist.org/packages/rikta/callback-switch",
   "license": "MIT",
   "authors": [
     {

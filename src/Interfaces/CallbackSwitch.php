@@ -1,8 +1,8 @@
 <?php
 
-namespace RiktaD\CallbackSwitch\Interfaces;
+namespace Rikta\CallbackSwitch\Interfaces;
 
-use RiktaD\CallbackSwitch\Exceptions\CaseNotFoundException;
+use Rikta\CallbackSwitch\Exceptions\CaseNotFoundException;
 
 interface CallbackSwitch
 {

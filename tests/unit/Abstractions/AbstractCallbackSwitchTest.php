@@ -2,17 +2,17 @@
 
 /** @noinspection PhpUnhandledExceptionInspection */
 
-namespace RiktaD\CallbackSwitch\Test\Unit\Abstractions;
+namespace Rikta\CallbackSwitch\Test\Unit\Abstractions;
 
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use ReflectionProperty;
-use RiktaD\CallbackSwitch\Abstractions\AbstractCallbackSwitch;
-use RiktaD\CallbackSwitch\Exceptions\CaseNotFoundException;
-use RiktaD\CallbackSwitch\Test\Dummies\DummySwitch;
+use Rikta\CallbackSwitch\Abstractions\AbstractCallbackSwitch;
+use Rikta\CallbackSwitch\Exceptions\CaseNotFoundException;
+use Rikta\CallbackSwitch\Test\Dummies\DummySwitch;
 
 /**
- * @coversDefaultClass \RiktaD\CallbackSwitch\Abstractions\AbstractCallbackSwitch
+ * @coversDefaultClass \Rikta\CallbackSwitch\Abstractions\AbstractCallbackSwitch
  */
 class AbstractCallbackSwitchTest extends TestCase
 {
