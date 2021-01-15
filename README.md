@@ -1,8 +1,9 @@
 # CallbackSwitch
 
-![b-packagist-version] ![b-php-version] ![b-license]
-
-![b-last-release-date] ![b-last-commit-date] ![b-commits-since-last-release]
+[![GitHub issues](https://img.shields.io/github/issues/RiktaD/CallbackSwitch)](https://github.com/RiktaD/CallbackSwitch/issues)
+[![GitHub license](https://img.shields.io/github/license/RiktaD/CallbackSwitch)](https://github.com/RiktaD/CallbackSwitch/blob/master/LICENSE)
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/rikta/callback-switch)
+![Packagist Version](https://img.shields.io/packagist/v/rikta/callback-switch)
 
 Advanced switch statements as classes
 
@@ -144,10 +145,3 @@ a look at [CONTRIBUTING.md](.github/CONTRIBUTING.md) first.
 ## License
 
 [MIT](./LICENSE)
-
-[b-packagist-version]:[https://img.shields.io/packagist/v/rikta/callback-switch]
-[b-php-version]:[https://img.shields.io/packagist/php-v/rikta/callback-switch]
-[b-license]:[https://img.shields.io/github/license/RiktaD/CallbackSwitch]
-[b-last-release-date]:[https://img.shields.io/github/release-date/RiktaD/CallbackSwitch]
-[b-last-commit-date]:[https://img.shields.io/github/last-commit/RiktaD/CallbackSwitch]
-[b-commits-since-last-release]:[https://img.shields.io/github/commits-since/RiktaD/CallbackSwitch/latest]
