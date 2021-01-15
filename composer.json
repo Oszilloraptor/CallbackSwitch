@@ -32,14 +32,14 @@
   },
   "autoload": {
     "psr-4": {
-      "RiktaD\\CallbackSwitch\\": "src/"
+      "Rikta\\CallbackSwitch\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "RiktaD\\CallbackSwitch\\Test\\Dummies\\": "tests/dummies",
-      "RiktaD\\CallbackSwitch\\Test\\Unit\\": "tests/unit",
-      "RiktaD\\CallbackSwitch\\Test\\Functional\\": "tests/functional"
+      "Rikta\\CallbackSwitch\\Test\\Dummies\\": "tests/dummies",
+      "Rikta\\CallbackSwitch\\Test\\Unit\\": "tests/unit",
+      "Rikta\\CallbackSwitch\\Test\\Functional\\": "tests/functional"
     }
   },
   "minimum-stability": "stable",
