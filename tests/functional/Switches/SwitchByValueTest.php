@@ -32,17 +32,17 @@ class SwitchByValueTest extends TestCase
      */
     public function correctCaseDataProvider(): Generator
     {
-        yield [
+        yield 'a' => [
             'a',
             'A'
         ];
 
-        yield [
+        yield 'b' => [
             'b',
             'B'
         ];
 
-        yield [
+        yield 'default' => [
             'unknown',
             'default'
         ];
