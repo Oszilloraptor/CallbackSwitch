@@ -23,6 +23,7 @@ Along the Abstraction this package ships:
 - `SwitchByIsA` -> Keys are Interfaces (FQCN), prioritized by order of added callbacks (first wins)
 - `SwitchByType` -> Keys are inbuilt types or FQCNs, FQCNs have higher priority
 - `SwitchByValue` -> Keys are the values
+- `SwitchBySubstring` -> Keys are substrings of the passed value; prioritized by order of added callbacks (first wins)
 
 You can also easily implementing your own CallbackSwitches by extending the `AbstractCallbackSwitch`
 and implementing the only abstract method to choose which callback to use 

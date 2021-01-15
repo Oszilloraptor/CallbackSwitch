@@ -352,7 +352,7 @@ class AbstractCallbackSwitchTest extends TestCase
     }
 
     /**
-     * @testdox ->hasDefault() returns true if no default case exists
+     * @testdox ->hasDefault() returns false if no default case exists
      */
     public function testHasDefaultReturnsFalse(): void
     {

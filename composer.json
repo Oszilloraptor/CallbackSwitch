@@ -1,6 +1,6 @@
 {
   "name": "rikta/callback-switch",
-  "description": "a short description in a single line",
+  "description": "Switch-statement-like objects based on callbacks for several use-cases",
   "type": "library",
   "keywords": [],
   "homepage": "https://packagist.org/packages/rikta/callback-switch",
